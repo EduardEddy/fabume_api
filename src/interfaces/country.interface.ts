@@ -1,0 +1,21 @@
+export interface CountryInterface {
+    _id: string|null,
+    name: string,
+    iso3: string|null,
+    numeric_code:string|null,
+    iso2: string
+    phonecode:string|null,
+    capital:string|null,
+    currency:string|null,
+    currency_name:string|null,
+    currency_symbol:string|null,
+    tld:string|null,
+    native:string|null,
+    region:string|null,
+    subregion:string|null,
+    timezones:string|null,
+    latitude:string|null,
+    longitude:string|null,
+    emoji:string|null,
+    emojiU:string|null,
+}
